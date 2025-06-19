@@ -10,113 +10,99 @@ seo:
 content_blocks:
    -
       _bookshop_name: home/hero
-      title: Beautiful email campaigns
+      title: Wifi, Simplified. Guests, Captivated.
       description: >-
-         With Sendit, you can quickly create beautiful rich emails that capture
-         a reader's attention, engage them, and convert them into customers.
-      image_path: /images/hero/hero-image-2.png
+         Seamless guest onboarding for UniFi networks with integrated Square POS validation.
+      image_path: /images/hero/captivi-login-page2.png
       link:
-         text: Try This Free
-         url: /# 
+         text: Show Me
+         url: /Feature
    -
       _bookshop_name: global/counter
-      title: Scale your
-      title_suffix: Business
+      title: Secure your
+      title_suffix: WiFi
       description: >-
-         We have an extensive library of pre-written sales emails, proven
-         marketing templates, and more to get you started on your next project.
+         Captivi streamlines guest WiFi access for hospitality, retail, and event spaces by connecting your UniFi network to real-time Square POS receipts. No more manual voucher codes. Just easy, secure access when your guests need it most.
       alternateStyle: false
       numbers:
          -
-            number: 200
-            suffix: m
-            prefix: $
-            text: Venture capital raised
+            number: 110
+            suffix: K
+            prefix: 
+            text: Authorizations
          -
-            number: 2016
-            text: Established in
-         -
-            number: 40
+            number: 50
             suffix: +
-            text: Amazing team members
+            text: Protected sites
          -
-            number: 4322
-            suffix: +
-            text: Active users and growing
+            number: 9.1
+            suffix: K
+            text: Staff hours saved
    -
       _bookshop_name: home/video
-      image_path: /images/video/video-thum.jpg
-      videoUrl: https://vimeo.com/45830194
+      image_path: /images/video/video-thum.png
+      videoUrl: /static/images/video/captivi-demo.mp4
    -
       _bookshop_name: global/header
-      title: 'Sendit '
+      title: 'Captivi '
       title_suffix: Features
       no_top_pad: true
       description: >-
-         Our platform offers the most advanced features including automated
-         email content creation, dynamic personalization, and customer
-         segmentation.
+         . . .
    -
       _bookshop_name: global/feature
-      image_path: /images/feature/feature-card-one.png
-      title: Email Campaign in one minute
+      image_path: /images/feature/feature-card-one-captivi.png
+      title: Effortless Guest Access
       description: >-
-         Send an email campaign with one click, in just minutes. Automate
-         your emails and content, while keeping the human touch.
+         Authorize guests onto WiFi with proof of purchase using a simple Square receipt. Less clicks for your customers, no hassle for your employees.
       btn:
          link: /#
-         text: Try This Free
+         text: Get Started
       reversed: false
    -
       _bookshop_name: global/feature
-      image_path: /images/feature/feature-card-two.png
-      title: See every Lead in one Place
+      image_path: /images/feature/feature-card-two-captivi.png
+      title: Designed for UniFi + Square
       description: >-
-         Sales analytics and automation made simple: see every sales lead
-         in one place, regardless of where it came from.
+         Built specifically for Ubiquiti UniFi controllers and Square POS. No clunky workarounds or complex hardware required (in fact, no extra hardware at all!).
       btn:
          link: /#
-         text: Try This Free
+         text: Get Started
       reversed: true
    -
       _bookshop_name: global/feature
-      image_path: /images/feature/feature-card-three.png
-      title: 100% free uploads
+      image_path: /images/feature/feature-card-three-captivi.png
+      title: Modern. Secure. Flexible.
       description: >-
-         SendIt is used by everyone from small businesses to fortune 500
-         companies. Browse our collection of email marketing templates and
-         start sending beautiful emails in minutes.
+         Keep your network safe. Only paying or validated guests connect, with customizable timeouts, access, and bandwidth rules.
+         Clean, branded captive portal on any device. No app required.
       btn:
          link: /#
-         text: Try This Free
+         text: Get Started
       reversed: false
    -
       _bookshop_name: global/testimonial
-      title: Build relationships that
-      title_suffix: last
+      title: Our clients are
+      title_suffix: our biggest fans
       description: >-
-         Customers from around the world are building game changing email
-         marketing campaigns.
+         Customers from around the country are simplifying their guest WiFi setups, saving staff time, and saving money.
       slider:
          -
             image_path: /images/testimonial/logo-2.jpg
-            author: Pete Fish
-            designation: CMO at Clear Appeal
+            author: Casey
+            designation: Cafe Owner
             message: >-
-               Sendit has taken Clear Appeal to the next level with it's
-               beautiful targetted email campaigns.
+               Captivi made our café WiFi effortless. We just print the receipt, and guests connect. No more headaches, just happy customers!
          -
             image_path: /images/testimonial/logo-3.jpg
-            author: Dolly Watson
-            designation: Digital Marketer at Time Cop
+            author: Linda
+            designation: Food Court Operations
             message: >-
-               Wow, what a difference Sendit has made. My customers are more
-               engaged than ever.
+               Our guest network used to be a mess—now it's secure, staff-only, or guest with purchase. Captivi handled the setup and it just works.
          -
             image_path: /images/testimonial/logo-4.jpg
-            author: Simon Moriarty
-            designation: Head of Marketing at Pinnacle Mines
+            author: Simon
+            designation: Hospitality Director
             message: >-
-               I can't imagine life without Sendit now, I have no idea how we
-               were surviving before.
+               The amount of staff hours we spent helping our customers get online was staggering. Captivi virtually eliminated that.
 ---

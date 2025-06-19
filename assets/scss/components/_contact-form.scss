@@ -7,7 +7,7 @@
     padding-bottom: $base-padding * 5;
   }
   &-hero {
-    background: $color-secondary-dark;
+    background: $color-secondary-light;
     padding: $base-padding * 17.4 0 $base-padding * 9.6;
     @include media-breakpoint-down-xl {
       padding: $base-padding * 13 0 $base-padding * 5;
@@ -125,13 +125,13 @@
         font-size: $base-font-size * 0.9;
         font-weight: 600;
         color: $color-header;
-        background: $color-secondary-dark;
+        background: $color-white;
         border: 1px solid $color-text-dark;
         border-radius: 10px;
         margin-bottom: $base-margin * 1.9;
 
         &:focus {
-          background: $color-header-dark;
+          background: $color-white;
           border: 1px solid $color-anchor;
           outline: 0;
           box-shadow: none;

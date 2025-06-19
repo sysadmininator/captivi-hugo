@@ -1,7 +1,7 @@
 ---
-logo: /images/footer-logo.svg
+logo: /images/captivi-logo-crop.png
 logo_url: /home
-copyright: "MyCompany. All rights reserved."
+copyright: "Captivi. All rights reserved."
 social:
   - link: "https://www.facebook.com/mycompany"
     icon: "ph-facebook-logo"
@@ -20,16 +20,16 @@ sections:
       - link: "/"
         text: "Home"
       - link: "/feature"
-        text: "Feature"
+        text: "Features"
       - link: "/pricing"
-        text: "Price"
-      - link: "/about"
-        text: "About"
+        text: "Pricing"
+#      - link: "/about"
+#        text: "About"
   -
-    title: "Community"
+    title: "Get Help"
     links:
-      - link: "/blog"
-        text: "Blog"
+      - link: "/support"
+        text: "Support Articles"
   -
     title: "Company"
     links:

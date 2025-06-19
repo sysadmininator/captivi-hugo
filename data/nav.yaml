@@ -1,36 +1,36 @@
-logo: /images/logo.svg
+logo: /images/captivi-logo-nobg.png
 items:
   - link: /
     text: Home
     enable_dropdown: false
     dropdown:
   - link: /feature/
-    text: Feature
+    text: Features
     enable_dropdown: false
     dropdown:
   - link: /pricing/
     text: Pricing
     enable_dropdown: false
     dropdown:
-  - link: /about/
-    text: About
-    enable_dropdown: false
-    dropdown:
-  - link: /blog/
-    text: Blog
+#  - link: /about/
+#    text: About
+#    enable_dropdown: false
+#    dropdown:
+  - link: /support/
+    text: Support
     enable_dropdown: true
     dropdown:
-      - dropdown_text: All Articles
-        dropdown_link: /blog
-      - dropdown_text: Marketing
-        dropdown_link: /categories/marketing
-      - dropdown_text: Technology
-        dropdown_link: /categories/technology
-  - link: /contact/
-    text: Contact
-    enable_dropdown: false
-    dropdown:
-enable_nav_btn: false
+#      - dropdown_text: Main
+#        dropdown_link: /support/
+      - dropdown_text: FAQ
+        dropdown_link: /support/
+      - dropdown_text: Contact
+        dropdown_link: /contact/
+#  - link: /contact/
+#    text: Contact
+#    enable_dropdown: false
+#    dropdown:
+enable_nav_btn: true
 nav_btn:
   link: /contact/
   text: Get Started

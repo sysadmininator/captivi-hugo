@@ -9,111 +9,99 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: pricing/hero
-    title: A plan for everyone
+    title: Plans to fit your needs
     description: >-
-      Sendit is easy to get started and we have a pricing plan for businesses of
+      Captivi is easy to get started and we have a pricing plan for businesses of
       all sizes.
   - _bookshop_name: pricing/table
     pricing_tier:
-      - tier: Free
-        description: Everything you need to get started.
-        price: 0
+      - tier: Starter
+        description: Essential captive portal services.
+        price: 50
         hasDiscount: false
         discountPrice: 0
         isActive: false
         feature:
-          - item: 1 Email Campaign
+          - item: 100% Portal Uptime
             isActive: true
-          - item: 1 Year Premium Support
+          - item: Non-disruptive Updates
             isActive: true
-          - item: Regular Update for 1 Year
+          - item: Global Issue Rapid Response
             isActive: true
-          - item: 90+ Widgets & Extensions
+          - item: Email Support
             isActive: true
-          - item: 23+ Templates
+          - item: Up to 3 Sites
             isActive: true
-          - item: Over 800 Section Blocks
+          - item: UniFi Network Monitoring
             isActive: false
-          - item: Support
-            isActive: false
-          - item: 3 filters
-            isActive: false
-          - item: Unlimited activity history
+          - item: UniFi Proactive Recommendations
             isActive: false
         btn:
-          link: /#
-          text: Try This Free
-      - tier: Pro
-        description: More collaborative power.
-        price: 199
+          link: /contact
+          text: Get Started
+      - tier: Plus
+        description: More sites. More support.
+        price: 150
         hasDiscount: true
-        discountPrice: 125
+        discountPrice: 100
         isActive: true
         feature:
-          - item: 5 Email Campaigns
+          - item: 100% Portal Uptime
             isActive: true
-          - item: 1 Year Premium Support
+          - item: Non-disruptive Updates
             isActive: true
-          - item: Regular Update for 1 Year
+          - item: Global Issue Rapid Response
             isActive: true
-          - item: 90+ Widgets & Extensions
+          - item: Email Support
             isActive: true
-          - item: 23+ Templates
+          - item: Up to 10 Sites
             isActive: true
-          - item: Over 800 Section Blocks
+          - item: UniFi Network Monitoring
             isActive: true
-          - item: Support
-            isActive: false
-          - item: 3 filters
-            isActive: false
-          - item: Unlimited activity history
+          - item: UniFi Proactive Recommendations
             isActive: false
         btn:
-          link: /#
-          text: Try This Free
-      - tier: Business
-        description: All the bells and whistles.
-        price: 499
+          link: /contact
+          text: Get Started
+      - tier: Premium
+        description: Even more sites. Expert UniFi care.
+        price: 250
         hasDiscount: true
-        discountPrice: 350
+        discountPrice: 200
         isActive: false
         feature:
-          - item: 20 Email Campaigns
+          - item: 100% Portal Uptime
             isActive: true
-          - item: 1 Year Premium Support
+          - item: Non-disruptive Updates
             isActive: true
-          - item: Regular Update for 1 Year
+          - item: Global Issue Rapid Response
             isActive: true
-          - item: 90+ Widgets & Extensions
+          - item: Email Support
             isActive: true
-          - item: 23+ Templates
+          - item: Up to 20 Sites
             isActive: true
-          - item: Over 800 Section Blocks
+          - item: UniFi Network Monitoring
             isActive: true
-          - item: Support
-            isActive: true
-          - item: 3 filters
-            isActive: true
-          - item: Unlimited activity history
+          - item: UniFi Proactive Recommendations
             isActive: true
         btn:
-          link: /#
-          text: Try This Free
-  - _bookshop_name: global/faq
-    title: Have
-    title_suffix: Questions?
-    description: We're always here to help. Here are the most frequently asked questions.
-    faq:
-      - title: Is there a maximum numbers of emails I can send each month?
-        description: No, the prices include unlimited emails. Send to your heart's content.
-      - title: Where can I find out more information?
-        description: Right here on this website, or contact our support team.
-      - title: Do you have pricing for non-profits?
-        description: >-
-          Yes, contact our support team and we'll get you set up on our
-          non-profit plan.
-      - title: What forms of payment do you accept?
-        description: We accept credit cards, checks, and cash.
-      - title: In which currencies can I make payments?
-        description: All payments are in **USD**.
+          link: /contact
+          text: Get Started
+  # - _bookshop_name: global/faq
+  #   title: Have
+  #   title_suffix: Questions?
+  #   description: We're always here to help. Here are the most frequently asked questions.
+  #   faq:
+  #     - title: Is there a maximum numbers of emails I can send each month?
+  #       description: No, the prices include unlimited emails. Send to your heart's content.
+  #     - title: Where can I find out more information?
+  #       description: Right here on this website, or contact our support team.
+  #     - title: Do you have pricing for non-profits?
+  #       description: >-
+  #         Yes, contact our support team and we'll get you set up on our
+  #         non-profit plan.
+  #     - title: What forms of payment do you accept?
+  #       description: We accept credit cards, checks, and cash.
+  #     - title: In which currencies can I make payments?
+  #       description: All payments are in **USD**.
 ---

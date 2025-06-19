@@ -1,10 +1,8 @@
 ---
-title: Resources to grow your email campaigns
+title: Resources to help
 description: >-
-  We believe that a good email marketing strategy is the key to growth. So we’re
-  helping you grow your business with tools and resources that make email
-  marketing easy.
-url: /blog/
+  We believe that a positive user experience comes from a strong network configuration that balances security and functionality. These resources are meant to help everyone; customer or not.
+url: /support/
 seo:
   page_description: 
   canonical_url: 
@@ -12,4 +10,5 @@ seo:
   author_twitter_handle: 
   open_graph_type:
   no_index: false
+
 ---
