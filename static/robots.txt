@@ -1,0 +1,24 @@
+User-agent: *
+Disallow:
+
+# Sitemaps
+Sitemap: https://captivi.info/sitemap.xml
+
+# Helpful explicit allowances
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
