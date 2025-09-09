@@ -1,7 +1,7 @@
 ---
 title: Support
 seo:
-  page_description: 
+  page_description: Support & FAQ | Captivi
   canonical_url: 
   featured_image: 
   author_twitter_handle: 

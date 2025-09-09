@@ -1,0 +1,25 @@
+{{ if eq .RelPermalink "/support/" }}
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {
+      "@type":"Question",
+      "name":"Does Captivi work with any WiFi system?",
+      "acceptedAnswer":{"@type":"Answer","text":"Captivi is built specifically for Ubiquiti UniFi networks..."}
+    },
+    {
+      "@type":"Question",
+      "name":"How does the Square integration work?",
+      "acceptedAnswer":{"@type":"Answer","text":"Captivi verifies guest WiFi access by checking for a valid Square receipt code and order total..."}
+    },
+    {
+      "@type":"Question",
+      "name":"Is guest data safe and private?",
+      "acceptedAnswer":{"@type":"Answer","text":"Yes. We verify a receipt and device ID — no browsing data collected, stored, or sold."}
+    }
+  ]
+}
+</script>
+{{ end }}

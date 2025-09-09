@@ -1,7 +1,7 @@
 ---
 title: Features
 seo:
-  page_description: 
+  page_description: Captivi Features | Purchase-Gated Guest Wi-Fi for UniFi + Square
   canonical_url: 
   featured_image: 
   author_twitter_handle: 

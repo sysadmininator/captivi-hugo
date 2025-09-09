@@ -1,7 +1,7 @@
 ---
 title: About
 seo:
-  page_description:
+  page_description: About Captivi | Privacy-First Guest Wi-Fi for Hospitality
   canonical_url:
   featured_image:
   author_twitter_handle:

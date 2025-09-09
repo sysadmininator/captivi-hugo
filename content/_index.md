@@ -1,7 +1,7 @@
 ---
 title: Home
 seo:
-  page_description: 
+  page_description: Guest Wi-Fi Captive Portal for Coffee Shops | UniFi + Square | Captivi
   canonical_url: 
   featured_image: 
   author_twitter_handle: 
@@ -55,7 +55,7 @@ content_blocks:
       videoUrl: /static/images/video/captivi-demo.mp4
    -
       _bookshop_name: home/hero
-      image_path:
+      image_path: /images/hero/captivi-login-thanks.png
       title: Make your Wi‑Fi work for your business — not the other way around.
       description: |
          Contact us to get started or schedule a quick walkthrough.

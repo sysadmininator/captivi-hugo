@@ -64,3 +64,8 @@
 {{ else }}
   {{ with .Site.Params.twitter_site }}<meta name="twitter:creator" content="{{ . }}">{{ end }}
 {{ end }}
+
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+
+{{ partial "schema-localbusiness.html" . }}
+{{ partial "schema-faq.html" . }}

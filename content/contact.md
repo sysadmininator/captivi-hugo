@@ -1,7 +1,7 @@
 ---
 title: Contact
 seo:
-  page_description: 
+  page_description: Contact Captivi | Get Started
   canonical_url: 
   featured_image: 
   author_twitter_handle: 

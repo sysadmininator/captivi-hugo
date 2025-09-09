@@ -1,7 +1,7 @@
 ---
 title: Pricing
 seo:
-  page_description: 
+  page_description: Pricing | Captivi Guest Wi-Fi for Small Businesses
   canonical_url: 
   featured_image: 
   author_twitter_handle: 
