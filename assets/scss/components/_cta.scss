@@ -4,7 +4,8 @@
 
 .cta {
   text-align: center;
-  background: $color-header;
+  background: radial-gradient(circle at 20% 20%, rgba($color-primary, 0.18) 0, transparent 35%),
+    linear-gradient(135deg, $color-primary 0%, $color-primary-dark 100%);
   .section-header {
     @include media-breakpoint-down-sm {
       padding: $base-padding * 4.2 0 $base-padding * 6.3;
@@ -14,7 +15,7 @@
       margin-bottom: $base-margin * 1.5;
     }
     p {
-      color: $color-secondary-dark;
+      color: rgba($color-white, 0.9);
       width: 70%;
       margin: 0 auto $base-margin * 2.5;
       @include media-breakpoint-down-xl {

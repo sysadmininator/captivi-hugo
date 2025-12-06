@@ -3,30 +3,43 @@
 **********/
 .hero,
 .hero-two {
-  background: $color-secondary;
-  padding: $base-padding * 13.8 0 $base-padding * 0;
+  background: linear-gradient(145deg, $color-secondary-light 0%, $color-white 100%);
+  padding: $base-padding * 11 0 $base-padding * 2;
   overflow: hidden;
   @include media-breakpoint-down-xxl {
-    padding: $base-padding * 10 0 $base-padding * 0;
+    padding: $base-padding * 9 0 $base-padding * 2;
   }
   @include media-breakpoint-down-lg {
-    padding: $base-padding * 11.5 0 $base-padding * 0;
+    padding: $base-padding * 9 0 $base-padding * 2;
   }
   @include media-breakpoint-down-md {
-    padding: $base-padding * 9 0 $base-padding * 0;
+    padding: $base-padding * 7.5 0 $base-padding * 3;
   }
   @include media-breakpoint-down-sm {
-    padding: $base-padding * 8.4 0 $base-padding * 0;
+    padding: $base-padding * 6.5 0 $base-padding * 3;
   }
   &-content {
     position: relative;
-    padding-bottom: $base-padding * 5.7;
+    padding-bottom: $base-padding * 4;
     z-index: 9;
     @include media-breakpoint-down-xl {
-      padding-bottom: $base-padding * 3;
+      padding-bottom: $base-padding * 2.5;
     }
     @include media-breakpoint-down-lg {
       padding-bottom: $base-padding * 1.5;
+    }
+    max-width: 640px;
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba($color-primary, 0.1);
+      color: $color-primary;
+      padding: 0.6rem 1rem;
+      border-radius: 999px;
+      font-weight: 600;
+      margin-bottom: $base-margin * 1.4;
+      box-shadow: inset 0 0 0 1px rgba($color-primary, 0.16);
     }
     h1 {
       position: relative;
@@ -46,10 +59,15 @@
         line-height: 50px;
       }
     }
+    p {
+      font-size: $base-font-size * 1.05;
+      color: $color-text-dark;
+      margin-bottom: $base-margin * 2.5;
+    }
   }
   &-banner {
     position: relative;
-    max-width: 1478px;
+    max-width: 1180px;
     margin: 0 auto;
     z-index: 1;
     text-align: center;
@@ -69,14 +87,16 @@
       max-width: 300px;
     }
     img {
-      border-radius: 20px 20px 0px 0px;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba($color-border, 0.6);
       @include media-breakpoint-down-xxl {
         max-width: 100%;
       }
     }
     &-shape {
       position: absolute;
-      top: -35%;
+      top: -30%;
       left: -9%;
       z-index: -1;
       @include media-breakpoint-down-xxl {
@@ -86,7 +106,7 @@
   }
   &-two {
     position: relative;
-    background: $color-gray-dark;
+    background: linear-gradient(180deg, $color-secondary-light 0%, $color-white 100%);
     padding: $base-padding * 11.3 0 $base-padding * 5;
     z-index: 1;
     overflow: hidden;

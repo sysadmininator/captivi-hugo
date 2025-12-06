@@ -3,7 +3,8 @@
 **********/
 .footer {
   position: relative;
-  background: $color-header;
+  background: linear-gradient(180deg, #0b172a 0%, #0f1d33 100%);
+  border-top: 1px solid rgba($color-border, 0.2);
   &-wrapper {
     max-width: 1500px;
     margin: 0 auto;

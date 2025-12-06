@@ -7,13 +7,14 @@
   flex-wrap: wrap; // allow us to do the line break for collapsing content
   align-items: center;
   justify-content: space-between; // space out brand from logo
-  padding-top: 1.5rem;
-  padding-right: 5.4rem; // default: null
-  padding-bottom: 1.5rem;
-  padding-left: 5.4rem; // default: null
-  background-color: none;
-  z-index: 1000;
+  padding: 1.2rem 4rem;
+  background: rgba($color-card, 0.92);
+  border-bottom: 1px solid rgba($color-border, 0.6);
+  border-radius: 0 0 18px 18px;
+  z-index: 1200;
   transition: all 0.3s cubic-bezier(0.36, 0.03, 0, 0.91);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.05);
 
   @include media-breakpoint-down-xxl {
      padding-left: 2.4rem;
@@ -35,11 +36,10 @@
 @include media-breakpoint-down-lg {
   .navbar {
      margin: $base-margin * 0;
-     padding: 1.5rem;
+     padding: 1.25rem 1.25rem;
      border-radius: 0;
      width: 100%;
-     // width: calc(100% - 32px) !important;
-     background: $color-white;
+     background: $color-card;
   }
 }
 @include media-breakpoint-down-sm {
@@ -88,15 +88,17 @@
      padding-left: $base-padding !important;
      display: flex;
      align-items: center;
-     font-weight: $regular-font-weight;
-     font-size: $base-font-size * 1.1;
-     line-height: 18px;
+     font-weight: $medium-font-weight;
+     font-size: $base-font-size * 1.05;
+     line-height: 20px;
+     color: $color-text-dark;
      z-index: 9;
      &.active {
         color: $color-primary;
      }
      &:hover {
         color: $color-primary;
+        text-shadow: 0 0 1px rgba($color-primary, 0.35);
      }
      @include media-breakpoint-only-lg {
         padding-right: 0.75rem !important;
