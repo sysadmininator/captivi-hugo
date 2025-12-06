@@ -3,7 +3,8 @@
 **********/
 .footer {
   position: relative;
-  background: $color-header;
+  background: #0c1326;
+  color: $color-secondary;
   &-wrapper {
     max-width: 1500px;
     margin: 0 auto;
@@ -29,16 +30,17 @@
       }
       a {
         margin-bottom: $base-margin * 2.5;
-        @include media-breakpoint-down-sm {
-          margin-bottom: $base-margin * 1.25;
-        }
+      @include media-breakpoint-down-sm {
+        margin-bottom: $base-margin * 1.25;
+      }
       }
       p {
-        color: $color-secondary-dark;
+        color: rgba($color-white, 0.85);
         font-family: $font-primary;
-        font-size: $base-font-size * 0.9;
+        font-size: $base-font-size * 0.95;
         font-weight: 600;
         margin-bottom: $base-margin * 2.5;
+        letter-spacing: 0.1px;
         @include media-breakpoint-down-sm {
           margin-bottom: $base-margin * 3.3;
         }
@@ -78,7 +80,7 @@
             }
             &:hover {
               i {
-                color: #e63b2b;
+                color: $color-primary;
                 transform: translateY(-10px);
               }
             }
@@ -104,7 +106,7 @@
     }
     h3 {
       margin-bottom: $base-margin * 1.6;
-      color: $color-secondary-dark;
+      color: rgba($color-white, 0.7);
       font-family: $font-primary;
       font-size: $base-font-size * 0.9;
       font-weight: 600;
@@ -116,11 +118,11 @@
         display: block;
         padding: $base-padding * 0.8 $base-padding * 0.2 $base-padding * 0.8;
         a {
-          color: $color-white;
+          color: rgba($color-white, 0.92);
           font-weight: 600;
           transition: all 0.3s ease-in-out;
           &:hover {
-            color: $color-anchor;
+            color: $color-primary;
           }
         }
       }

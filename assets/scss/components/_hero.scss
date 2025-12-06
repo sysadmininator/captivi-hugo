@@ -3,91 +3,97 @@
 **********/
 .hero,
 .hero-two {
-  background: $color-secondary;
-  padding: $base-padding * 13.8 0 $base-padding * 0;
+  background: linear-gradient(180deg, $color-white 0%, rgba($color-secondary, 0.7) 100%);
+  padding: $base-padding * 12 0 $base-padding * 2;
   overflow: hidden;
   @include media-breakpoint-down-xxl {
-    padding: $base-padding * 10 0 $base-padding * 0;
+    padding: $base-padding * 9 0 $base-padding * 2;
   }
   @include media-breakpoint-down-lg {
-    padding: $base-padding * 11.5 0 $base-padding * 0;
+    padding: $base-padding * 10 0 $base-padding * 0;
   }
   @include media-breakpoint-down-md {
-    padding: $base-padding * 9 0 $base-padding * 0;
+    padding: $base-padding * 8 0 $base-padding * 0;
   }
   @include media-breakpoint-down-sm {
-    padding: $base-padding * 8.4 0 $base-padding * 0;
+    padding: $base-padding * 7.2 0 $base-padding * 0;
   }
   &-content {
     position: relative;
-    padding-bottom: $base-padding * 5.7;
+    padding-bottom: $base-padding * 4.5;
     z-index: 9;
+    max-width: 620px;
     @include media-breakpoint-down-xl {
       padding-bottom: $base-padding * 3;
     }
     @include media-breakpoint-down-lg {
-      padding-bottom: $base-padding * 1.5;
+      padding-bottom: $base-padding * 2;
+      margin: 0 auto;
+      text-align: center;
     }
     h1 {
       position: relative;
+      font-weight: 700;
+      margin-bottom: $base-margin * 1.5;
+      letter-spacing: -0.8px;
       @include media-breakpoint-down-xxl {
-        font-size: $base-font-size * 3.5;
+        font-size: $base-font-size * 3.3;
       }
       @include media-breakpoint-down-lg {
-        font-size: $base-font-size * 3.2;
+        font-size: $base-font-size * 3;
         line-height: 65px;
       }
       @include media-breakpoint-down-md {
-        // font-size: $base-font-size * 2.5;
         line-height: 55px;
       }
       @include media-breakpoint-down-sm {
-        font-size: $base-font-size * 2.5;
-        line-height: 50px;
+        font-size: $base-font-size * 2.4;
+        line-height: 48px;
       }
+    }
+    p {
+      font-size: $base-font-size * 1.1;
+      color: $color-text-dark;
     }
   }
   &-banner {
     position: relative;
-    max-width: 1478px;
+    max-width: 960px;
     margin: 0 auto;
     z-index: 1;
     text-align: center;
-    @include media-breakpoint-down-xxl {
-      max-width: 990px;
-    }
+    padding: $base-padding * 2;
+    background: $color-white;
+    border-radius: 28px;
+    box-shadow: var(--shadow-card);
+    border: 1px solid $color-secondary-dark;
     @include media-breakpoint-down-xl {
       max-width: 820px;
     }
     @include media-breakpoint-down-lg {
-      max-width: 600px;
+      max-width: 640px;
     }
     @include media-breakpoint-down-md {
-      max-width: 500px;
+      max-width: 520px;
     }
     @include media-breakpoint-down-sm {
-      max-width: 300px;
+      max-width: 320px;
+      padding: $base-padding * 1.2;
     }
     img {
-      border-radius: 20px 20px 0px 0px;
+      border-radius: 22px;
       @include media-breakpoint-down-xxl {
         max-width: 100%;
       }
     }
     &-shape {
-      position: absolute;
-      top: -35%;
-      left: -9%;
-      z-index: -1;
-      @include media-breakpoint-down-xxl {
-        left: -15%;
-      }
+      display: none;
     }
   }
   &-two {
     position: relative;
-    background: $color-gray-dark;
-    padding: $base-padding * 11.3 0 $base-padding * 5;
+    background: $color-white;
+    padding: $base-padding * 10 0 $base-padding * 5;
     z-index: 1;
     overflow: hidden;
     @include media-breakpoint-down-xl {

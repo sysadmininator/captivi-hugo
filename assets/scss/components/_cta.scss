@@ -4,7 +4,7 @@
 
 .cta {
   text-align: center;
-  background: $color-header;
+  background: linear-gradient(135deg, $color-header-dark 0%, #0f1b33 60%, #112046 100%);
   .section-header {
     @include media-breakpoint-down-sm {
       padding: $base-padding * 4.2 0 $base-padding * 6.3;
@@ -12,9 +12,10 @@
     h2 {
       color: $color-white;
       margin-bottom: $base-margin * 1.5;
+      letter-spacing: -0.6px;
     }
     p {
-      color: $color-secondary-dark;
+      color: rgba($color-white, 0.78);
       width: 70%;
       margin: 0 auto $base-margin * 2.5;
       @include media-breakpoint-down-xl {
@@ -22,7 +23,7 @@
       }
       @include media-breakpoint-down-sm {
         width: 100%;
-        color: $color-primary-light;
+        color: rgba($color-white, 0.85);
       }
     }
   }
@@ -38,8 +39,8 @@
           border-bottom-right-radius: 24px !important;
           border-top-right-radius: 24px !important;
           padding: 35px 200px 31px 33px;
-          background: rgba(229, 59, 42, 0.15);
-          border: 1.20519px solid $color-primary;
+          background: rgba($color-white, 0.08);
+          border: 1px solid rgba($color-white, 0.3);
           z-index: 0;
           @include media-breakpoint-down-sm {
             padding: 20px 180px 20px 20px;
